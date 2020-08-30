@@ -124,7 +124,7 @@ const workExperiences = {
     {
       role: "Software Engineer",  
       company: "Ford Credit",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/fordLogo.webp"),
       date: "September 2018 – Present",
       desc: "Full Stack Software Engineer for the Ford Credit Online Credit Application.",
       descBullets: [
@@ -140,7 +140,7 @@ const workExperiences = {
     {
       role: "Software Engineer Intern",  
       company: "Masco Cabinetry",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/images/kraftmaidLogo.png"),
       date: "may 2018 – August 2018",
       desc: "Front-End Developer For Masco Cabinetry's subsidiary company KraftMaid",
       descBullets: [
@@ -170,13 +170,14 @@ const bigProjects = {
   subtitle: "SOME COMPANIES THAT I HELPED TO CREATE THEIR TECH change to kraftmaid masco and ford credit",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/fordLogo.webp"),
       link: "http://saayahealth.com/"
     },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      link: "http://nextu.se/"
-    }
+
+        {
+          image: require("./assets/images/kraftmaidLogo.png"),
+          link: "http://nextu.se/"
+        }
   ]
 };
 
