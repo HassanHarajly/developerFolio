@@ -17,26 +17,7 @@ function timeOut(){
 }
 var widthScreen=window.screen.width;
 export default function Twitter() {
-	if (twitterDetails.userName){
 		return (
-        <Suspense fallback={renderLoader()}>
-          <div class="tw-main-div" id="twitter">       
-                  <div className="centerContent">
-                  <TwitterTimelineEmbed
-                    sourceType="profile"
-                    screenName ={ twitterDetails.userName }
-                    options={{height:400,width: {widthScreen}}}
-                    placeholder={renderLoader()}
-                    autoHeight= {false}
-                    borderColor= "#fff"
-                    noFooter= {true}
-                    onload= {timeOut()}
-                  />
-                  </div>
-          </div>
-        </Suspense>
-  );  
-	} else {  
-		return null;
-	}
+<div></div>
+  );
 }

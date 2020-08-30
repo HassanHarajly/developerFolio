@@ -9,7 +9,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Hassan Harajly",
   title: "Hi all, I'm Hassan",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript/ Typescript / Angular/ Angularjs / Nodejs / some other cool libraries and frameworks."),
+  subTitle: emoji("A passionate Full Stack Software Engineer 🚀 who has alot of experience with building Web and Mobile applications with Typescript / Angular/ Spring Boot/ Java/  Pivotal Cloud Foundry / Nodejs / some other cool libraries and frameworks."),
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
 };
 
@@ -49,31 +49,31 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "bootstrap",
+      fontAwesomeClassname: "fab fa-bootstrap"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "Angular ",
+      fontAwesomeClassname: "fab fa-angular"
     },
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "My-sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
@@ -85,12 +85,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "Spring-Boot",
+      fontAwesomeClassname: "fas fa-leaf"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "jenkins",
+      fontAwesomeClassname: "fab fa-jenkins"
     }
   ]
 };
@@ -123,28 +123,32 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",  
-      company: "Facebook",
+      company: "Ford Credit",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      date: "September 2018 – Present",
+      desc: "Full Stack Software Engineer for the Ford Credit Online Credit Application.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed new features for the Ford Online Credit web application",
+        "Provided production support for Legacy code base.",
+        "Actively maintained and rewrote Legacy code to business specifications.",
+        "Created new CI/CD pipelines to facilitate faster code deployment.",
+        "Documented existing business logic of Legacy system.",
+        "Developed secure Angular 9 web application."
+
       ]
     },
     {
-      role: "Front-End Developer",   
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
       role: "Software Engineer Intern",  
-      company: "Airbnb",
+      company: "Masco Cabinetry",
       companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "may 2018 – August 2018",
+      desc: "Front-End Developer For Masco Cabinetry's subsidiary company KraftMaid",
+      descBullets: [
+        "Interfaced with design agency to clarify design choices and modify user experience to best fit business needs of a redesign.",
+        "Built a new web application kitchen remodel price estimation tool for Kraftmaid.com.",
+        "Built out a “My Project” page for Kraftmaid.com.",
+        "Communicated business needs to team in India to build out a new API to support the price estimation tool."
+            ]
     },
   ]
 };
@@ -154,7 +158,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "saadpawhsta", // Change to your github username to view your profile in Contact Section.
   showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
 };
 
@@ -163,7 +167,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SOME COMPANIES THAT I HELPED TO CREATE THEIR TECH change to kraftmaid masco and ford credit",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
