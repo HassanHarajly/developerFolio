@@ -70,6 +70,10 @@ $ npm install
 
 #Start's development server
 $ npm start
+#deploying 
+
+npm run build
+cf push hassanmharajly -b https://github.com/cloudfoundry/nodejs-buildpack
 ```
 
 ## Github Setup For Open Source Projects

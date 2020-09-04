@@ -10,7 +10,7 @@ const greeting = {
   username: "Hassan Harajly",
   title: "Hi all, I'm Hassan",
   subTitle: emoji("A passionate Full Stack Software Engineer 🚀 who has alot of experience with building Web and Mobile applications with Typescript / Angular/ Spring Boot/ Java/  Pivotal Cloud Foundry / Nodejs / some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  resumeLink: "https://docs.google.com/document/d/1QOf88ejMvHXCFnwoo3ERxrPH603jiOp2/edit"
 };
 
 // Your Social Media Link
@@ -28,7 +28,7 @@ const socialMediaLinks = {
 // Your Skills Section
 
 const skillsSection = {
-  title: "What i do",
+  title: "What I do",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
@@ -159,7 +159,7 @@ To know how to get github key look at readme.md */
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "saadpawhsta", // Change to your github username to view your profile in Contact Section.
-  showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
+  showGithubProfile :"false" // Set true or false to show Contact profile using Github, defaults to false
 };
 
 
@@ -167,16 +167,16 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME COMPANIES THAT I HELPED TO CREATE THEIR TECH change to kraftmaid masco and ford credit",
+  subtitle: "below are some companies I have contributed to.",
   projects: [
     {
       image: require("./assets/images/fordLogo.webp"),
-      link: "http://saayahealth.com/"
+      link: "https://www.ford.com/finance/online-credit-application/apply#/"
     },
 
         {
           image: require("./assets/images/kraftmaidLogo.png"),
-          link: "http://nextu.se/"
+          link: "https://www.kraftmaid.com/getting-ready/setting-a-budget/project-estimator/"
         }
   ]
 };
