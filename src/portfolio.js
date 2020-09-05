@@ -9,7 +9,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Hassan Harajly",
   title: "Hi all, I'm Hassan",
-  subTitle: emoji("A passionate Full Stack Software Engineer 🚀 who has alot of experience with building Web and Mobile applications with Typescript / Angular/ Spring Boot/ Java/  Pivotal Cloud Foundry / Nodejs / some other cool libraries and frameworks."),
+  subTitle: emoji("A passionate Full Stack Software Engineer 🚀 who has a lot of experience with building Web and Mobile applications with Typescript / Angular/ Spring Boot/ Java/  Pivotal Cloud Foundry / NodeJS / some other cool libraries and frameworks."),
   resumeLink: "https://docs.google.com/document/d/1QOf88ejMvHXCFnwoo3ERxrPH603jiOp2/edit"
 };
 
@@ -267,7 +267,7 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
+  subtitle: "Want to discuss a project or just want to say hi? My Inbox is open for all.",
   number: "3139784945",
   email_address: "harajlyhassan@gmail.com"
 };
