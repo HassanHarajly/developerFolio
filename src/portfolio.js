@@ -21,8 +21,10 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/hassan-harajly-590b0864/",
   gmail: "harajlyhassan@gmail.com",
 //  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/7696844/hassan-harajly"
-  // Instagram and Twitter are also supported in the links!
+  stackoverflow: "https://stackoverflow.com/users/7696844/hassan-harajly",
+  twitter:'https://twitter.com/HarajlyHassan'
+  // Instagram and Twitter are also supported in the links!,
+
 };
 
 // Your Skills Section
