@@ -10,7 +10,7 @@ const greeting = {
   username: "Hassan Harajly",
   title: "Hi all, I'm Hassan",
   subTitle: emoji("A passionate Full Stack Software Engineer 🚀 who has a lot of experience with building Web and Mobile applications with Typescript / Angular/ Spring Boot/ Java/  Pivotal Cloud Foundry / NodeJS / some other cool libraries and frameworks."),
-  resumeLink: "https://docs.google.com/document/d/1QOf88ejMvHXCFnwoo3ERxrPH603jiOp2/edit"
+  resumeLink: "https://drive.google.com/file/d/1QOf88ejMvHXCFnwoo3ERxrPH603jiOp2/view"
 };
 
 // Your Social Media Link
