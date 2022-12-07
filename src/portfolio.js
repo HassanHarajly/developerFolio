@@ -274,7 +274,7 @@ const contactInfo = {
   email_address: "harajlyhassan@gmail.com"
 };
 
-//Twitter Section
+//Twitter Sections
 
 const twitterDetails = {
 
